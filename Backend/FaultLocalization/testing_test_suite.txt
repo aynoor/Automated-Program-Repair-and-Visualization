@@ -1,0 +1,36 @@
+	/*test_case tc1;
+	char* status = "Pass";
+	size_t size_of_array = 1;
+	unsigned id1 = 1;
+	initialize_test_case (&tc1, id1, size_of_array);
+	insert_BB_line_num(&tc1, 3);
+	insert_BB_line_num(&tc1, 3);
+	insert_BB_line_num(&tc1, 3);
+	insert_BB_line_num(&tc1, 3);
+	set_test_case_status(&tc1, status);
+	print_test_case(&tc1);
+
+	test_case tc2;
+	unsigned id2 = 2;
+	initialize_test_case (&tc2, id2, size_of_array);
+	insert_BB_line_num(&tc2, 5);
+	insert_BB_line_num(&tc2, 6);
+	set_test_case_status(&tc2, "Fail");
+	print_test_case(&tc2);
+
+	test_case tc3;
+	unsigned id3 = 3;
+	initialize_test_case (&tc3, id3, size_of_array);
+	insert_BB_line_num(&tc3, 7);
+	insert_BB_line_num(&tc3, 8);
+	insert_BB_line_num(&tc3, 9);
+	set_test_case_status(&tc3, status);
+	print_test_case(&tc3);
+
+	test_suite ts;
+	size_t  size_of_test_suite = 1;
+	initialize_test_suite(&ts, size_of_test_suite);
+	insert_test_suite(&ts, tc1);
+	insert_test_suite(&ts, tc2);
+	insert_test_suite(&ts, tc3);
+	print_test_suite(&ts);*/
