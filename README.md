@@ -3,11 +3,15 @@ Developing an automatic program repair tool using state of the art research algo
 
 How to run:
 
+Need to install LLVM and compile the passes provided in AutomaticProgramRepair/LLVMCustomPasses/Hello.cpp
+
 1) Go to AutomaticProgramRepair/Frontend_and_Client/App and run the following command in the terminal:
     nodejs app.js
     
-2) Got to AutomaticProgramRepair/Backend and run thr folloeing command in another terminal window or tab:
+2) Got to AutomaticProgramRepair/Backend and run thr following command in another terminal window or tab:
     nodejs program_repair_server.js
     
 3) To connect a client go to browser and type
     http://0.0.0.0:8000/
+
+
