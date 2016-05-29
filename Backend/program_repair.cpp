@@ -195,6 +195,7 @@ void modify_file(string fix_type) {
   //cout << "size of vector: " << testcase_numbers.size() << endl;
   //for (int i = 0; i < testcase_numbers.size(); ++i) cout << "testcase #: " << testcase_numbers[i] << endl;
   for (int i = 0; i < testcase_numbers.size(); ++i) {
+    remove("one_result.txt"); 
     //cout << testcase_numbers[i] << endl;
     string testcase_name = "TC" + to_string(testcase_numbers[i]) + ".bc";
     string testcase_name_m = "TC" + to_string(testcase_numbers[i]) + "_m.bc";
@@ -280,7 +281,7 @@ int main() {
         ++lines_tried;
         create_terminate_program_file();
         faulty_line_num = get_suspicious_line(suspicious_stmnts);
-        //faulty_line_num = 8;
+        //faulty_line_num = 10;
         suspicious_stmnts.erase(faulty_line_num);
         string tc_file_name = tc_results +".txt"; //+ to_string(lines_tried) + 
         create_new_file(tc_file_name.c_str());
